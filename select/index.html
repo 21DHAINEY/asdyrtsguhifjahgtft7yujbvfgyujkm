@@ -1,0 +1,276 @@
+<title> andwatch. </title>
+    <style>
+        body {
+            background-color: #141414;
+        }
+    </style>
+<center>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+  </style>
+      <br> <br> <br><br> <br><br> <br><br> <br>
+      <a style="color: white; font-size: 24px; font-family: 'Teachers', sans-serif;">andwatch. (beta)</a> <br>
+<nav><br><br> <br> </nav>
+    <style>
+        body {
+            background-color: #141414;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .fade-image {
+            width: 300px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            border: none; /* Remove border */
+            -webkit-mask-image: radial-gradient(circle, white, transparent);
+            mask-image: radial-gradient(circle, white, transparent);
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            font-family: 'Teachers', sans-serif;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .image-text-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 15px;
+        }
+
+        .images-row {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+
+    <!-- SLIDESHOW SECTION 1 (ANIME) -->
+    <a style="color: white; font-size: 20px; font-family: 'Teachers', sans-serif;">anime.</a><br><br>
+    <style>
+
+
+        .slideshow-container {
+            position: relative;
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .slideshow {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .image-text-group {
+            min-width: 200px;
+            margin: 0 10px;
+            text-align: center;
+        }
+
+        .image-text-group img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .text {
+            display: block;
+            margin-top: 10px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            border: none;
+            color: white;
+            font-size: 2em;
+            cursor: pointer;
+            padding: 0 10px;
+            z-index: 10;
+        }
+
+        .prev {
+            left: 0;
+        }
+
+        .next {
+            right: 0;
+        }
+
+    </style>
+    <!-- ANIME - 1109 -->
+    <div class="slideshow-container" id="slideshow1-container">
+        <div class="slideshow" id="slideshow1">
+            <div class="image-text-group">
+                <a href="/sololeveling">
+                    <img src="sl.png" alt="Solo Leveling" class="fade-image">
+                </a>
+                <a class="text">Solo Leveling</a>
+            </div>
+            <div class="image-text-group">
+                <a href="/demon">
+                    <img src="ds.jpg" alt="Demon" class="fade-image">
+                </a>
+                <a class="text">Demon Slayer</a>
+            </div>
+            <div class="image-text-group">
+                <a href="/bluelock">
+                    <img src="bluelock.jpeg" alt="Blue Lock" class="fade-image">
+                </a>
+                <a class="text">Blue Lock</a>
+            </div>
+            <div class="image-text-group">
+                <a href="/mha">
+                    <img src="mha.jpg" alt="Mha" class="fade-image">
+                </a>
+                <a class="text">My Hero Academia</a>
+            </div>
+            <div class="image-text-group">
+                <a href="/opm">
+                    <img src="opm.jpg" alt="OPM" class="fade-image">
+                </a>
+                <a class="text">One Punch Man</a>
+            </div>
+            <div class="image-text-group">
+                <a href="/op">
+                    <img src="OP.jpg" alt="One Piece" class="fade-image">
+                </a>
+                <a class="text">One Piece</a>
+            </div>
+            <div class="image-text-group">
+                <a href="/sololeveling">
+                    <img src="sl.png" alt="Solo Leveling" class="fade-image">
+                </a>
+                <a class="text">Solo Leveling</a>
+            </div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1, 'slideshow1')">&#10094;</button>
+        <button class="next" onclick="moveSlide(1, 'slideshow1')">&#10095;</button>
+    </div>
+
+    <!-- SHOWS - 2209 -->
+    <br><br><br>
+      <a style="color: white; font-size: 20px; font-family: 'Teachers', sans-serif;">shows.</a><br><br>
+    <div class="slideshow-container" id="slideshow2-container">
+        <div class="slideshow" id="slideshow2">
+            <div class="image-text-group">
+                <a href="/naruto">
+                    <img src="naruto.jpg" alt="Naruto" class="fade-image">
+                </a>
+                <a class="text">Naruto</a>
+            </div>
+            <div class="image-text-group">
+                <a href="/bleach">
+                    <img src="bleach.jpg" alt="Bleach" class="fade-image">
+                </a>
+                <a class="text">Bleach</a>
+            </div>
+            <div class="image-text-group">
+                <a href="/aot">
+                    <img src="aot.jpg" alt="Attack on Titan" class="fade-image">
+                </a>
+                <a class="text">Attack on Titan</a>
+            </div>
+            <div class="image-text-group">
+                <a href="/fairytail">
+                    <img src="fairytail.jpg" alt="Fairy Tail" class="fade-image">
+                </a>
+                <a class="text">Fairy Tail</a>
+            </div>
+            <div class="image-text-group">
+                <a href="/dbz">
+                    <img src="dbz.jpg" alt="Dragon Ball Z" class="fade-image">
+                </a>
+                <a class="text">Dragon Ball Z</a>
+            </div>
+            <div class="image-text-group">
+                <a href="/hxh">
+                    <img src="hxh.jpg" alt="Hunter x Hunter" class="fade-image">
+                </a>
+                <a class="text">Hunter x Hunter</a>
+            </div>
+            <div class="image-text-group">
+                <a href="/naruto">
+                    <img src="naruto.jpg" alt="Naruto" class="fade-image">
+                </a>
+                <a class="text">Naruto</a>
+            </div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1, 'slideshow2')">&#10094;</button>
+        <button class="next" onclick="moveSlide(1, 'slideshow2')">&#10095;</button>
+    </div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        initializeSlideshow('slideshow1');
+        initializeSlideshow('slideshow2');
+    });
+
+    function initializeSlideshow(slideshowId) {
+        const slideshow = document.querySelector(`#${slideshowId}`);
+        const slides = slideshow.querySelectorAll('.image-text-group');
+
+        const firstClone = slides[0].cloneNode(true);
+        const lastClone = slides[slides.length - 1].cloneNode(true);
+
+        firstClone.id = `${slideshowId}-first-clone`;
+        lastClone.id = `${slideshowId}-last-clone`;
+
+        slideshow.append(firstClone);
+        slideshow.prepend(lastClone);
+
+        const slideWidth = slides[0].clientWidth;
+        slideshow.style.transform = `translateX(${-slideWidth - 20}px)`;
+
+        slideshow.addEventListener('transitionend', () => {
+            const slides = slideshow.querySelectorAll('.image-text-group');
+            if (slides[1].id === `${slideshowId}-last-clone`) {
+                slideshow.style.transition = 'none';
+                slideshow.style.transform = `translateX(${-slideWidth - 20}px)`;
+            }
+
+            if (slides[slides.length - 2].id === `${slideshowId}-first-clone`) {
+                slideshow.style.transition = 'none';
+                slideshow.style.transform = `translateX(${-slideWidth * (slides.length - 2) - 20 * (slides.length - 2)}px)`;
+            }
+        });
+    }
+
+    function moveSlide(n, slideshowId) {
+        const slideshow = document.querySelector(`#${slideshowId}`);
+        const slides = slideshow.querySelectorAll('.image-text-group');
+        const slideWidth = slides[0].clientWidth;
+
+        let currentSlide = Array.from(slides).findIndex(slide => slide.id.includes('first-clone')) - 1 + n;
+
+        if (currentSlide >= slides.length - 2) {
+            currentSlide = 1;
+        }
+
+        if (currentSlide < 0) {
+            currentSlide = slides.length - 3;
+        }
+
+        slideshow.style.transition = 'transform 0.5s ease-in-out';
+        slideshow.style.transform = `translateX(${-currentSlide * (slideWidth + 20)}px)`;
+    }
+
+</script>
+
+    
+    </body>
+    </html>
+
+    </center>

@@ -1,0 +1,36 @@
+
+    <style>
+        body {
+            background-color: #141414;
+        }
+    </style>
+<center>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+  </style>
+      <br> <br> <br><br> <br><br> <br><br> <br>
+      <a style="color: white; font-size: 24px; font-family: 'Teachers', sans-serif;">andwatch. (beta)</a> <br>
+<nav><br>
+    <input type="password" id="key" placeholder="Enter Key" />
+    <button onclick="accessSelect()" style="border-radius: 5px; background-color: green; color: white; padding: 5px 10px;" onmouseover="this.style.backgroundColor='white'; this.style.color='green';" onmouseout="this.style.backgroundColor='green'; this.style.color='white';">Enter</button>
+</nav>
+
+<script>
+
+
+    function accessSelect() {
+        var key = document.getElementById("key").value;
+        if (key === "1234567890" || key === "abc" || key === "0000") {
+            document.getElementById("key").value = ""; // Clear the input after successful access
+            window.location.href = "/select";
+        } else {
+            window.location.href = "/";
+        }
+    }
+
+</script>
+
+    <BR>
+</BR>
+     <a style="color: white; font-size: 18px; font-family: 'Teachers', sans-serif;">FREE KEY - 0000</a>
+<br>
